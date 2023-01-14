@@ -22,3 +22,9 @@
 <meta property="og:title" content="${title!} – ${blog_title!}">
 <meta property="twitter:partner" content="ogwp">
 <!-- /OG -->
+<!-- twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${title!} – ${blog_title!}">
+<meta name="twitter:description" content="${meta_description!}">
+<meta name="twitter:image" content="${post.thumbnail!}">
+<!-- /twitter -->
