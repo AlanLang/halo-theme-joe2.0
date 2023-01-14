@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <#import "template/common/header.ftl" as headInfo>
+  <#import "template/common/header_post.ftl" as headInfo>
   <@headInfo.head title="${post.title!}" type="post"/>
   <#import "template/macro/tail.ftl" as tailInfo>
   <body>
