@@ -29,11 +29,7 @@
               <#if settings.enable_page_meta && enable_page_meta=='true'>
                 <div class="joe_detail__count">
                   <div class="joe_detail__count-information">
-                    <img width="35" height="35" class="avatar lazyload" src="${settings.lazyload_avatar!}" data-src="${USER_AVATAR}" onerror="Joe.errorImg(this)" alt="${user.nickname!}">
-                    <div class="meta">
-                      <div class="author">
-                        <a class="link" href="${blog_url}/s/about" title="${user.nickname!}">${user.nickname!}</a>
-                      </div>
+                    <div class="meta" style="height:auto">
                       <div class="item">
                         <span class="text">${post.createTime?string('yyyy-MM-dd')}</span>
                         <span class="line">/</span>
